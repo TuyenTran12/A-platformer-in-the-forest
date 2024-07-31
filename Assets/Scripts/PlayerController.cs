@@ -102,6 +102,11 @@ public class PlayerController : MonoBehaviour
         {
             currentTeleporter = collision.gameObject;
         }
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            Destroy(collision.gameObject);
+            gameController.Addcoins();
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

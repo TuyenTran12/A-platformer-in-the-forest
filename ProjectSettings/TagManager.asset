@@ -12,6 +12,7 @@ TagManager:
   - Hit
   - Enemy
   - Teleporter
+  - Coin
   layers:
   - Default
   - TransparentFX

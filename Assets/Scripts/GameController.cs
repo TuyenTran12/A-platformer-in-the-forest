@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
     [SerializeField] Animator transitonAnim;
 
+    public Text txtCountCoinsText;
+    private int Point;
     // Update is called once per frame
     void Update()
     {
@@ -44,4 +47,9 @@ public class GameController : MonoBehaviour
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         transitonAnim.SetTrigger("Start");
     }
+    public void Addcoins()
+    {
+        Point++;
+        txtCountCoinsText.text = ": " + Point;
+    }    
 }
