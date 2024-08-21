@@ -4,6 +4,7 @@
 
 ## UPDATE
 ### Sorry guys, because this game lacks sprites for animations, I decided to drop it and get the available templates for the game on the same platform, Sunny Land. I hope you'll forgive me and please check out my alternative game
+### Here is its link: Here is its link: https://github.com/TuyenTran12/SunnyLand
 
 ## Take a look at the game's images
 
