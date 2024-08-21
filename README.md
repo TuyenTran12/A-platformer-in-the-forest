@@ -2,6 +2,9 @@
 
 ### Hello guys, my name is Tuyen, I'm from Vietnam, this is the first platformer project I've done, so there will be some mistakes, please forgive me. Hope you enjoy it
 
+## UPDATE
+### Sorry guys, because this game lacks sprites for animations, I decided to drop it and get the available templates for the game on the same platform, Sunny Land. I hope you'll forgive me and please check out my alternative game
+
 ## Take a look at the game's images
 
 ![Capture](https://github.com/user-attachments/assets/157289e8-f3e9-40a5-b820-1da27d760f9f)
